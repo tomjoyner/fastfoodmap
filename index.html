@@ -8,9 +8,10 @@
 <link href='https://api.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.css' rel='stylesheet' />
    
    <style>
-      body.map   {     font-family: "Heebo";  font-size: 20px;}
+      body.main   {     font-family: "Heebo";  font-size: 20px;}
       body.housekeeping    {font-family:  "Heebo";  font-size: 18px;  font-color: #a1a1a1;}
-    h1.map {      font-family: "Heebo"; font-size: 48px; line-height: 120%;}
+    h1.header {      font-family: "Heebo"; font-size: 48px; line-height: 120%;}
+      h2.subheader {    font-family: "Heebo";  font-size:  28px;}
   </style>
   
   <meta charset="utf-8">
@@ -26,11 +27,12 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
  
-<body class="map">
+<body class="main">
   <div class="container">
-     <h1 class="map"> What can fast food tell us about Sydney? </h1>
-     <p>Sydney is a diverse city, and mThe distribution of Red Rooster restaurants in Sydney.</p>
-     
+     <h1 class="header"> What can fast food tell us about Sydney? </h1>
+     <p>Sydney is a diverse city, but there is nothing more universal than fast food. But from Bondi to Mt Druitt, the greasiness, price, availability, marketing and taste of fast food changes. So what can this tell us about Sydney-siders? A lot, it turns out.</p>
+     <br>
+     <h2 class="subheader"> The distribution of Red Rooster restaurants </h2>
 <div id='map' style='width: 600px; height: 400px;'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoidG9tam95bmVyIiwiYSI6ImNqNXhwYXdjYTA3Y2oycW53am0yaDAyYnMifQ.5oQdIMTn74apZn9i3kXZ2g';
