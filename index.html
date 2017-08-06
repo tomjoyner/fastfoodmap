@@ -8,7 +8,8 @@
 <link href='https://api.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.css' rel='stylesheet' />
    
    <style>
-    h1.header {   font-family: "Heebo"; font-size: 32px;}
+      body.map   {     font-family: "Heebo";  font-size: 20px;}
+    h1.map {      font-family: "Heebo"; font-size: 32px;}
   </style>
   
   <meta charset="utf-8">
@@ -26,8 +27,8 @@
  
 <body>
   <div class="container">
-<h1 class="header"> What can fast food tells us about Sydney? </h1>
-    <p>The distribution of Red Rooster restaurants in Sydney.</p>
+<h1 class="map"> What can fast food tells us about Sydney? </h1>
+    <p class="map">The distribution of Red Rooster restaurants in Sydney.</p>
      
 <div id='map' style='width: 400px; height: 300px;'></div>
 <script>
@@ -39,7 +40,7 @@ var map = new mapboxgl.Map({
 </script>
      
      <br>
-    <p>Copyright © 2017</p>
+    <p class="map">Copyright © 2017</p>
 
   </div>
 
