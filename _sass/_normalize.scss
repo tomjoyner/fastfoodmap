@@ -101,8 +101,7 @@ a:focus {
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 
-a:active, visited
-{     text-decoration: none;}
+a:link {     text-decoration: none;}
 a:hover {
     outline: 0;
 }
