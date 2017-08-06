@@ -101,7 +101,11 @@ a:focus {
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 
-a:link, hover, active, visited {     text-decoration: none;}
+a:link, active, visited {     text-decoration: none; text-background: #FBDE6B;}
+a:hover {
+   text-decoration: none;
+   text-background: #FBDE6B;
+}
 
 /* ==========================================================================
    Typography
